@@ -2,6 +2,7 @@
 /* Fascinate Inline */
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
 
+
 body {
     width: 100vw;
     display: flex;
@@ -57,5 +58,27 @@ p {
 
 a.credentials {
     color: white;
+}
+
+div.form-area {
+    border: 1px solid purple;
+    width: 67.1vw;
+    height: 99.7vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div.main-section {
+    border: 1px solid blue;
+    width: 66.2vw;
+    height: 60vh;
+    padding-left: 15px;
+}
+
+div.second-section {
+    border: 1px solid green;
+    width: 66.2vw;
+    height: 39.4vh;
+    padding-left: 15px;
 }
 
