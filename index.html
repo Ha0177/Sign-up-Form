@@ -22,13 +22,50 @@
         <div class="form-area">
             <section>
                 <div class="main-section">
-                    <h3></h3>
-                    <h3></h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum minus error blanditiis voluptates id sint voluptatibus amet dolore, sapiente voluptas nostrum eligendi autem reiciendis. Sunt accusantium tenetur inventore architecto optio!</p>
+                    <p>Go ahead.</p>
+                    <h3>Sign up now!</h3>
+
+                    <form id="signup-form" action="#" method="get">
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="number">PHONE NUMBER  (optional)</label>
+                                <input type="tel" id="number">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-item">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="confirm_password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm_password" required>
+                            </div>
+                        </div>
+                    </form>
 
                 </div>
             </section>
             <section>
-                <div class="second-section"></div>
+                <div class="second-section">
+                    <button form="signup-form" type="submit">Create Account</button>
+                    <p>Already have an account?<a href="#"> Log in</a></p>
+                </div>
             </section>
         </div>
     </main>
